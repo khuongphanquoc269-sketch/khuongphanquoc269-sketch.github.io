@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness & Chế độ ăn uống</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Fitness Nutrition</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#tong-quan">Tổng quan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#che-do-an">Chế độ ăn uống</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dinh-duong">Dinh dưỡng</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vitamin">Vitamin & khoáng chất</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bmi">Tính BMI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#y-nghia-tuoi">Ý nghĩa theo độ tuổi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Layout với 2 sidebar -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <!-- Sidebar trái -->
+            <aside class="col-12 col-md-2 mb-3 mb-md-0">
+                <div class="ad-sidebar border rounded-3 bg-white d-flex align-items-center justify-content-center text-muted">
+                    <!-- Đặt ảnh quảng cáo bên trái tại đây -->
+                     <img src="" alt="ảnh quảng cáo" class="img-fluid">
+                    <!-- <span>Vùng quảng cáo trái<br>(thêm ảnh sau)</span> -->
+                </div>
+            </aside>
+
+            <!-- Nội dung chính -->
+            <main class="col-12 col-md-8">
+                <!-- Tổng quan -->
+                <section id="tong-quan" class="mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Chế độ ăn uống</h2>
+                            <p class="card-text">
+                                Một chế độ ăn uống khoa học giúp tối ưu hiệu quả tập luyện, kiểm soát cân nặng,
+                                tăng cơ, giảm mỡ và cải thiện sức khỏe tổng thể. Kết hợp đúng tỉ lệ giữa
+                                <strong>protein – carb – chất béo tốt</strong> cùng vitamin, khoáng chất sẽ
+                                giúp cơ thể phục hồi nhanh hơn, ngủ ngon hơn và tinh thần tích cực hơn.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Chế độ ăn uống -->
+                <section id="che-do-an" class="mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Chế độ ăn uống gợi ý</h2>
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <h5>Nguyên tắc chung</h5>
+                                    <ul>
+                                        <li>Ăn đủ 3 bữa chính + 1–2 bữa phụ mỗi ngày.</li>
+                                        <li>Ưu tiên thực phẩm tươi, ít qua chế biến.</li>
+                                        <li>Hạn chế đường, nước ngọt, đồ chiên rán nhiều dầu, thịt đỏ và thịt chế biến sẵn.</li>
+                                        <li>Uống từ 1.5–2.5 lít nước/ngày tùy mức vận động; có thể tăng hơn nếu tập luyện cường độ cao.</li>
+                                        <li>Ăn chậm, nhai kỹ, lắng nghe cảm giác no để tránh ăn quá mức.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>Ví dụ phân chia trong ngày</h5>
+                                    <ul>
+                                        <li><strong>Sáng:</strong> Yến mạch + sữa chua + trái cây; thêm ít hạt (hạnh nhân, óc chó) để bổ sung chất béo tốt.</li>
+                                        <li><strong>Trưa:</strong> Cơm gạo lứt, ức gà, nhiều rau xanh, 1 phần trái cây tráng miệng.</li>
+                                        <li><strong>Chiều:</strong> Khoai lang, trứng luộc hoặc sữa chua không đường.</li>
+                                        <li><strong>Tối:</strong> Cá hồi/đậu phụ, salad rau củ trộn dầu oliu, hạn chế tinh bột nếu mục tiêu là giảm mỡ.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <h5>Ví dụ bữa ăn minh họa</h5>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <div class="card h-100">
+                                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Đĩa salad rau củ đầy màu sắc">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Salad rau củ + nguồn đạm nạc</h6>
+                                                <p class="card-text small mb-0">Giàu chất xơ, vitamin và đạm chất lượng cao, phù hợp bữa trưa hoặc tối nhẹ.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card h-100">
+                                            <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Bát yến mạch với trái cây và hạt">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Yến mạch + trái cây + hạt</h6>
+                                                <p class="card-text small mb-0">Bữa sáng cung cấp carb chậm tiêu, chất béo tốt và vitamin, giúp no lâu.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card h-100">
+                                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Đĩa gạo lứt, rau, cá hoặc thịt nạc">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Gạo lứt + rau xanh + cá/ức gà</h6>
+                                                <p class="card-text small mb-0">Bữa chính cân bằng giữa carb tốt, protein và chất xơ, phù hợp cho người tập luyện.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Dinh dưỡng -->
+                <section id="dinh-duong" class="mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Các nhóm dinh dưỡng chính</h2>
+                            <div class="row gy-3">
+                                <div class="col-md-4">
+                                    <h5>Protein</h5>
+                                    <p>
+                                        Giúp xây dựng và phục hồi cơ bắp, giữ cảm giác no lâu. Người tập luyện thường được khuyến nghị
+                                        khoảng 1.2–2 g protein/kg cân nặng/ngày tùy cường độ tập.
+                                        Nên bổ sung từ thịt nạc, cá, trứng, sữa, đậu hũ, các loại đậu.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>Carbohydrate (Carb tốt)</h5>
+                                    <p>
+                                        Cung cấp năng lượng chính cho hoạt động hàng ngày và buổi tập. Ưu tiên carb phức và giàu chất xơ như
+                                        gạo lứt, yến mạch, khoai lang, bánh mì nguyên cám để hạn chế tăng/giảm đường huyết đột ngột.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>Chất béo tốt</h5>
+                                    <p>
+                                        Hỗ trợ hấp thu vitamin tan trong dầu (A, D, E, K), ổn định hormone và tốt cho não bộ.
+                                        Nên dùng dầu oliu, hạt chia, quả bơ, cá béo, các loại hạt; hạn chế mỡ động vật và đồ chiên rán.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Vitamin & khoáng chất -->
+                <section id="vitamin" class="mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Nhu cầu vitamin & khoáng chất</h2>
+                            <p>
+                                Vitamin và khoáng chất giữ vai trò <strong>hỗ trợ chuyển hóa năng lượng, miễn dịch
+                                và phục hồi</strong>. Thiếu chúng, cơ thể dễ mệt mỏi, chuột rút, giảm tập trung.
+                            </p>
+                            <div class="row gy-3">
+                                <div class="col-md-3 col-6">
+                                    <h6>Vitamin C</h6>
+                                    <p class="mb-1">Tăng miễn dịch, chống oxy hóa.</p>
+                                    <small class="text-muted">Nguồn: cam, bưởi, ổi, dâu tây…</small>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h6>Vitamin D</h6>
+                                    <p class="mb-1">Hỗ trợ xương, hấp thu canxi.</p>
+                                    <small class="text-muted">Nguồn: ánh nắng, trứng, cá béo…</small>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h6>Canxi</h6>
+                                    <p class="mb-1">Xương chắc khỏe, co cơ.</p>
+                                    <small class="text-muted">Nguồn: sữa, rau lá xanh đậm…</small>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h6>Magie & kẽm</h6>
+                                    <p class="mb-1">Giảm căng thẳng, hỗ trợ giấc ngủ.</p>
+                                    <small class="text-muted">Nguồn: hạt, ngũ cốc nguyên cám…</small>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4 g-3">
+                                <div class="col-md-6">
+                                    <div class="card h-100">
+                                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Đĩa trái cây tươi nhiều màu sắc">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Đa dạng trái cây & rau củ</h6>
+                                            <p class="card-text small mb-0">
+                                                Ăn “cầu vồng” rau củ và trái cây giúp bạn nhận được nhiều loại vitamin, chất chống oxy hóa
+                                                và chất xơ khác nhau, hỗ trợ miễn dịch và làn da khỏe mạnh.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card h-100">
+                                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Các loại hạt và ngũ cốc nguyên cám">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Hạt & ngũ cốc nguyên cám</h6>
+                                            <p class="card-text small mb-0">
+                                                Cung cấp magie, kẽm, chất béo không bão hòa và chất xơ, giúp ổn định đường huyết,
+                                                hỗ trợ giấc ngủ và giảm căng thẳng.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BMI -->
+                <section id="bmi" class="mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Tính chỉ số BMI</h2>
+                            <p class="text-muted mb-3">
+                                BMI (Body Mass Index) = cân nặng (kg) / (chiều cao (m))<sup>2</sup>.
+                                Hãy nhập thông tin để xem tình trạng cơ thể và gợi ý chế độ ăn.
+                            </p>
+
+                            <div class="table-responsive mb-4">
+                                <table class="table table-sm table-bordered align-middle mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th class="text-center">BMI</th>
+                                            <th>Phân loại (theo chuẩn cho người châu Á)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">&lt; 18.5</td>
+                                            <td>Thiếu cân (nguy cơ suy dinh dưỡng, mệt mỏi, miễn dịch kém)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">18.5 – 22.9</td>
+                                            <td>Bình thường / khỏe mạnh (mục tiêu lý tưởng cho đa số người trưởng thành)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">23 – 24.9</td>
+                                            <td>Thừa cân nhẹ (cần điều chỉnh ăn uống và vận động)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">25 – 29.9</td>
+                                            <td>Béo phì độ 1 (tăng nguy cơ tim mạch, tiểu đường, mỡ máu)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">&ge; 30</td>
+                                            <td>Béo phì độ 2–3 (nguy cơ cao, nên tham vấn bác sĩ/chuyên gia dinh dưỡng)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <form id="bmi-form" class="row gy-3">
+                                <div class="col-md-4">
+                                    <label for="age" class="form-label">Tuổi</label>
+                                    <input type="number" class="form-control" id="age" min="10" max="100" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="height" class="form-label">Chiều cao (cm)</label>
+                                    <input type="number" class="form-control" id="height" min="100" max="230" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="weight" class="form-label">Cân nặng (kg)</label>
+                                    <input type="number" class="form-control" id="weight" min="30" max="200" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="activity" class="form-label">Mức độ vận động</label>
+                                    <select id="activity" class="form-select">
+                                        <option value="low">Ít vận động</option>
+                                        <option value="medium" selected>Tập 2–4 buổi/tuần</option>
+                                        <option value="high">Tập 5+ buổi/tuần</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Tính BMI & gợi ý</button>
+                                </div>
+                            </form>
+
+                            <hr class="my-4">
+
+                            <div id="bmi-result" class="d-none">
+                                <h5>Kết quả BMI</h5>
+                                <p><strong>BMI của bạn:</strong> <span id="bmi-value"></span></p>
+                                <p><strong>Phân loại:</strong> <span id="bmi-category"></span></p>
+
+                                <h6 class="mt-3">Gợi ý tổng quan</h6>
+                                <p id="bmi-summary"></p>
+
+                                <h6>Gợi ý chi tiết chế độ ăn & dinh dưỡng</h6>
+                                <ul id="bmi-details"></ul>
+
+                                <div class="row mt-3 gy-3">
+                                    <div class="col-md-6">
+                                        <h6>Nguy cơ sức khỏe nếu duy trì lâu dài</h6>
+                                        <ul id="bmi-risks" class="small mb-0"></ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Ví dụ thực phẩm phù hợp với bạn</h6>
+                                        <div id="bmi-foods" class="row g-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Ý nghĩa & ảnh hưởng theo độ tuổi -->
+                <section id="y-nghia-tuoi" class="mb-5">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title mb-3">Ý nghĩa & ảnh hưởng đến tinh thần, đời sống theo độ tuổi</h2>
+                            <div class="row gy-3">
+                                <div class="col-md-4">
+                                    <h5>Tuổi 18–25</h5>
+                                    <p>
+                                        Đây là giai đoạn hình thành thói quen. Một chế độ ăn lành mạnh giúp duy trì năng lượng
+                                        học tập, làm việc và tự tin hơn về ngoại hình.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>Tuổi 26–40</h5>
+                                    <p>
+                                        Thời kỳ bận rộn với công việc và gia đình. Ăn uống cân bằng giúp giảm stress,
+                                        phòng tránh tăng cân, mỡ nội tạng, cải thiện hiệu suất làm việc.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>Trên 40 tuổi</h5>
+                                    <p>
+                                        Nguy cơ các bệnh chuyển hóa (tiểu đường, tim mạch) tăng cao. Chế độ ăn ít đường,
+                                        ít muối, giàu chất xơ và chất béo tốt giúp cơ thể nhẹ nhàng, ngủ sâu hơn,
+                                        tinh thần lạc quan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Sidebar phải -->
+            <aside class="col-12 col-md-2 mt-3 mt-md-0">
+                <div class="ad-sidebar border rounded-3 bg-white d-flex align-items-center justify-content-center text-muted">
+                    <!-- Đặt ảnh quảng cáo bên phải tại đây -->
+                    <img src="" alt="ảnh quảng cáo" class="img-fluid">
+                    <!-- <span>Vùng quảng cáo phải<br>(thêm ảnh sau)</span> -->
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <small>&copy; 2026 Fitness Nutrition - Xây dựng lối sống lành mạnh mỗi ngày.</small>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

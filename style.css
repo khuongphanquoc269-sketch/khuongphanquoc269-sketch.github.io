@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./image/a.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ad-sidebar {
+    position: sticky;
+    top: 80px;
+    height: 400px;
+    max-width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#bmi-result .badge {
+    font-size: 0.9rem;
+    padding: 0.45em 0.75em;
+}
+
+section h2 {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 767.98px) {
+    .ad-sidebar {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+}
