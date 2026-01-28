@@ -243,7 +243,7 @@ const BMI_PROFILES = {
             },
             {
                 name: "Yến mạch + trái cây + hạt",
-                image: "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80",
+                image: "https://cooponline.vn/tin-tuc/wp-content/uploads/2025/09/image.png",
                 description: "Bữa sáng lành mạnh, hỗ trợ kiểm soát đường huyết và no lâu đến trưa."
             }
         ]
@@ -285,4 +285,5 @@ const BMI_PROFILES = {
             }
         ]
     }
+
 };
