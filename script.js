@@ -261,7 +261,7 @@ const BMI_PROFILES = {
             },
             {
                 name: "Khoai lang nướng + trứng luộc",
-                image: "https://cooponline.vn/tin-tuc/wp-content/uploads/2025/09/image.png",
+                image: "https://hoanmy.com/wp-content/uploads/2025/11/chi-so-duong-huyet-thap-1024x629-1.jpg",
                 description: "Bữa phụ giàu dinh dưỡng, thay thế đồ ăn vặt nhiều đường và dầu mỡ."
             }
         ]
@@ -287,5 +287,6 @@ const BMI_PROFILES = {
     }
 
 };
+
 
 
