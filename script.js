@@ -261,7 +261,7 @@ const BMI_PROFILES = {
             },
             {
                 name: "Khoai lang nướng + trứng luộc",
-                image: "https://nreci.org/wp-content/uploads/2024/02/thuc-don-giam-can-voi-khoai-lang-va-trung-1.webp",
+                image: "https://cooponline.vn/tin-tuc/wp-content/uploads/2025/09/image.png",
                 description: "Bữa phụ giàu dinh dưỡng, thay thế đồ ăn vặt nhiều đường và dầu mỡ."
             }
         ]
@@ -287,4 +287,5 @@ const BMI_PROFILES = {
     }
 
 };
+
 
